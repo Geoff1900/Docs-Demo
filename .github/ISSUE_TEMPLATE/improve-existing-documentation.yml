@@ -1,20 +1,20 @@
 name: Improve existing documentation
 description: Suggest new content or improvements to existing documentation
-title: "[Improvements]: "
+title: "[Improvement]: "
 labels: ["documentation", "improvement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form to suggest new content, point out missing guidance or offer ideas on how to improve existing documentation.
+        Suggest new content and offer ideas on how to improve existing documentation.
 
-        * Before you file an issue read the [Contributing guide](./CONTRIBUTING.md).
+        * Before you log an issue read the [Contributing guide](./CONTRIBUTING.md).
         * Check to make sure someone hasn't already opened a similar [issue](./issues).        
 
   - type: textarea
     id: summary
     attributes:
-      label: What would you like to improve?
+      label: What improvements would you like?
       description: Describe the new content or improvement in plain English.
       placeholder: Add a page about...
     validations:
