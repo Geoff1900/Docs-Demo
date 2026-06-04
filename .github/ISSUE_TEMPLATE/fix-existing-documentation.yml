@@ -1,0 +1,36 @@
+name: Fix existing documentation
+description: Report typos, grammar errors, broken links, or unclear wording
+title: "[Fix]: "
+labels: ["documentation", "fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for typos, grammar, broken links, unclear wording, or anything that is already documented but needs fixing.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the issue clearly.
+      placeholder: The page contains...
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is it?
+      description: Link to the page, section, or file.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix
+      description: Optional. If you know the fix, suggest it here.
+      placeholder: Change X to Y...
+    validations:
+      required: false
