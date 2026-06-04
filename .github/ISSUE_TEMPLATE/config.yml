@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Content idea
+  - name: Improve existing documentation
     url: /issues/new?template=improve-existing-documentation.yml
     about: Suggest new content or improvements
 
-  - name: Documentation fix
+  - name: Fix existing documentation
     url: /issues/new?template=fix-existing-documentation.yml
     about: Report an issue with existing documentation
