@@ -2,9 +2,9 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Content idea
-    url: /issues/new?template=content-idea.yml
+    url: /issues/new?template=improve-existing-documentation.yml
     about: Suggest new content or improvements
 
   - name: Documentation fix
-    url: /issues/new?template=documentation-fix.yml
+    url: /issues/new?template=fix-existing-documentation.yml
     about: Report an issue with existing documentation
