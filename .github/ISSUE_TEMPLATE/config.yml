@@ -1,1 +1,10 @@
+blank_issues_enabled: false
 
+contact_links:
+  - name: Content idea
+    url: /issues/new?template=content-idea.yml
+    about: Suggest new content or improvements
+
+  - name: Documentation fix
+    url: /issues/new?template=documentation-fix.yml
+    about: Report an issue with existing documentation
