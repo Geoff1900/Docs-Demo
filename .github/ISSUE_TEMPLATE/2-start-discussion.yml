@@ -1,0 +1,26 @@
+name: 💬 Start a discussion
+description: Share early ideas or ask questions about the handbook.
+title: "Brief summary of the discussion"
+labels:
+  - discussion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+       **Before you start a discussion:**
+        
+       - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+       - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+       - Check for an existing [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
+       
+       Thanks for helping improve the handbook 🙌
+
+  - type: textarea
+    id: discussion
+    attributes:
+      label: Describe your idea or question
+      description: Share your thoughts, context, or questions. Include any relevant details.
+      placeholder: e.g. Should we add guidance on feature branching? I'm unsure how it should be approached in this handbook.
+    validations:
+      required: true
