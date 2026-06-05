@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: 📘 Contributing guide
+  - name: 📘 Contributing Guide
     url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md
     about: How to suggest changes or contribute to the handbook.
 
