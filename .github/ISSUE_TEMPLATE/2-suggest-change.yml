@@ -20,8 +20,8 @@ body:
       label: What would you like to improve?
       options:
         - Fix something (e.g. typos or broken links)
-        - Suggest an improvement (make the content clearer or better)
-        - Add new content (missing guidance or new topics)
+        - Suggest an improvement
+        - Add new content (missing guidance or topics)
     validations:
       required: true
 
