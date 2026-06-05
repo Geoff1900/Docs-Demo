@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Improve existing documentation
-    url: /issues/new?template=improve-existing-documentation.yml
-    about: Suggest new content or improvements
+  - name: Contributing guide
+    url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md
+    about: Read how to suggest changes or raise issues.
 
-  - name: Fix existing documentation
-    url: /issues/new?template=fix-existing-documentation.yml
-    about: Report an issue with existing documentation
+  - name: Code of Conduct
+    url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md
+    about: Read the standards we expect from everyone.
