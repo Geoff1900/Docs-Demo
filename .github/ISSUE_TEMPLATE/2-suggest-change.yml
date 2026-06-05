@@ -1,6 +1,6 @@
 name: Suggest a change (newest)
 name: 💡 Suggest a change
-description: Fix something wrong, improve content, or suggest new guidance for the handbook.
+description: Fix something wrong, suggest improvements to existing content or ideas for new guidance.
 title: "[Change]: "
 labels:
   - change
@@ -9,19 +9,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve the handbook.
-
-        Please follow the [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+        Thanks for helping improve the handbook. Please follow the [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
         and our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md).
 
   - type: dropdown
     id: change_type
     attributes:
-      label: What type of change is this?
+      label: What improvements would you like?
       options:
-        - Fix something (wrong, broken, or out of date)
-        - Improve something (make it clearer or better)
-        - Add new content (missing guidance or new topic)
+        - Fix something (report typos, grammar errors or broken links)
+        - Improve something (make the content clearer or better)
+        - Add new content (missing guidance or new topics)
     validations:
       required: true
 
