@@ -11,7 +11,8 @@ body:
   - type: markdown
     attributes:
       value: |
-
+      **Note** This is an open source repo
+ 
 
   - type: checkboxes
     id: conduct
