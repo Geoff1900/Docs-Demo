@@ -3,9 +3,7 @@ name: 💡 Suggest a change
 description: Report something wrong, suggest improvements or ideas for new guidance.
 title: "[Change]: "
 labels:
-  - change
-  - content
-  - fix
+  - documentation
 
 body:
   - type: markdown
@@ -18,17 +16,6 @@ body:
        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
        
        Thanks for helping improve the handbook 🙌
-
-  - type: dropdown
-    id: change_type
-    attributes:
-      label: Describe the change
-      options:
-        - Fix something (e.g. typos or broken links)
-        - Suggest an improvement
-        - Add new content
-    validations:
-      required: true
 
   - type: textarea
     id: problem
