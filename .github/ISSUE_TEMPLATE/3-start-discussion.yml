@@ -1,6 +1,6 @@
 name: 💬 Start a discussion (Newest)
 description: Share early ideas or ask questions about the handbook.
-title: "[Discussion]: "
+title: "Brief summary of the discussion"
 labels:
   - discussion
 
@@ -8,29 +8,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please follow the Contributing Guide and Code of Conduct before submitting.
+        **Before you start a discussion:**
+        
+       - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+       - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+       - Check for an existing [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
+       
+       Thanks for helping improve the handbook 🙌
 
-  - type: input
-    id: topic
+  - type: textarea
+    id: discussion
     attributes:
-      label: What would you like to discuss?
+      label: Describe your idea or question
+      description: Share your thoughts, context, or questions. Include any relevant details.
+      placeholder: e.g. Should we add guidance on feature branching? I'm unsure how it should be approached in this handboo
     validations:
       required: true
-
-  - type: textarea
-    id: context
-    attributes:
-      label: Background or context
-
-  - type: textarea
-    id: thoughts
-    attributes:
-      label: Early thoughts (optional)
-
-  - type: checkboxes
-    id: conduct
-    attributes:
-      label: Code of Conduct
-      options:
-        - label: I agree to follow the Code of Conduct.
-          required: true
