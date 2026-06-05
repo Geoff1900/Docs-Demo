@@ -7,6 +7,12 @@ labels:
   - content
   - fix
 
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+
   - type: checkboxes
     id: conduct
     attributes:
