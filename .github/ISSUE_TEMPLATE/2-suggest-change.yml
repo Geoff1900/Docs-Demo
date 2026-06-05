@@ -1,44 +1,58 @@
 name: Suggest a change (newest)
-description: Suggest improvements, additions, or updates to the handbook.
+name: 💡 Suggest a change
+description: Fix something wrong, improve content, or suggest new guidance for the handbook.
 title: "[Change]: "
 labels:
-  - enhancement
+  - change
 
 body:
   - type: markdown
     attributes:
       value: |
-        Please follow the Contributing Guide and Code of Conduct before submitting.
+        Thanks for helping improve the handbook.
+
+        Please follow the [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+        and our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md).
 
   - type: dropdown
-    id: type
+    id: change_type
     attributes:
       label: What type of change is this?
       options:
-        - Improve existing content
-        - Add new content
-        - Restructure or reorganise content
+        - Fix something (wrong, broken, or out of date)
+        - Improve something (make it clearer or better)
+        - Add new content (missing guidance or new topic)
     validations:
       required: true
 
   - type: input
     id: location
     attributes:
-      label: Which page or section?
+      label: Where is this in the handbook?
+      description: Page, section, or link
+      placeholder: e.g. doc/index.md or “Testing guidance page”
     validations:
       required: true
 
   - type: textarea
-    id: change
+    id: problem
     attributes:
-      label: What should change?
+      label: What is the issue or gap?
+      description: Tell us what is wrong, unclear, or missing
     validations:
       required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should it be instead?
+      description: Optional but helpful if you have a suggestion
 
   - type: textarea
     id: why
     attributes:
-      label: Why would this help?
+      label: Why is this change useful?
+      description: Who would benefit and how?
 
   - type: checkboxes
     id: conduct
