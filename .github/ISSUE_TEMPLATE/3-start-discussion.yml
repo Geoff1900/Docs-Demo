@@ -21,6 +21,6 @@ body:
     attributes:
       label: Describe your idea or question
       description: Share your thoughts, context, or questions. Include any relevant details.
-      placeholder: e.g. Should we add guidance on feature branching? I'm unsure how it should be approached in this handboo
+      placeholder: e.g. Should we add guidance on feature branching? I'm unsure how it should be approached in this handbook.
     validations:
       required: true
