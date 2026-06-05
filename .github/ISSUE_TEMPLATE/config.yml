@@ -1,10 +1,23 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Contributing guide
+  - name: 📘 Read the contributing guide
     url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md
-    about: How to suggest changes or contribute to the handbook.
+    about: How to suggest changes and contribute effectively.
 
-  - name: Code of Conduct
+  - name: 📜 Code of Conduct
     url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md
-    about: Expected behaviour when contributing.
+    about: Expected behaviour when taking part in this project.
+
+issue_templates:
+  - name: 🛠 name: Fix something (Newest)
+    description: Something is wrong, broken, or out of date in the handbook.
+    filename: fix-something.yml
+
+  - name: 💡 Suggest a change (newest)
+    description: Improve existing content or propose new content for the handbook.
+    filename: suggest-change.yml
+
+  - name: 💬 Start a discussion (Newest)
+    description: Share early ideas or ask questions before making a change.
+    filename: start-discussion.yml
