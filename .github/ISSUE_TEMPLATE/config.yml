@@ -8,16 +8,3 @@ contact_links:
   - name: Code of Conduct
     url: https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md
     about: Expected behaviour when contributing.
-
-issue_templates:
-  - name: Fix something
-    description: Report incorrect, outdated, or broken content.
-    filename: fix-something.yml
-
-  - name: Suggest a change
-    description: Suggest improvements, additions, or updates to the handbook.
-    filename: suggest-change.yml
-
-  - name: Start a discussion
-    description: Share early ideas or questions about the handbook.
-    filename: start-discussion.yml
