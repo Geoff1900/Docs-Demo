@@ -1,9 +1,11 @@
 name: Suggest a change (newest)
 name: 💡 Suggest a change
-description: Fix something wrong, suggest improvements to existing content or ideas for new guidance.
+description: Report something wrong, suggest improvements or ideas for new guidance.
 title: "[Change]: "
 labels:
   - change
+  - content
+  - fix
 
 body:
   - type: markdown
@@ -15,10 +17,10 @@ body:
   - type: dropdown
     id: change_type
     attributes:
-      label: What improvements would you like?
+      label: What would you like to improve?
       options:
         - Fix something (e.g. typos or broken links)
-        - Improve something (make the content clearer or better)
+        - Suggest an improvement (make the content clearer or better)
         - Add new content (missing guidance or new topics)
     validations:
       required: true
@@ -36,7 +38,7 @@ body:
     attributes:
       label: Where is this in the handbook?
       description: Optional. Feel free to leave blank if you are not sure
-      placeholder: e.g. doc/index.md or “Testing guidance page”
+      placeholder: e.g. doc/index.md or “Using Source Control”
 
   - type: textarea
     id: why
