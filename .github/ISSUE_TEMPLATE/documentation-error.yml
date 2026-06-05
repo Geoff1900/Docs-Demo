@@ -1,0 +1,71 @@
+name: Documentation error
+description: Report a typo, broken link, wrong instruction, or outdated guidance.
+title: "[Docs error]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the handbook.
+        Please give us the page and the exact problem so we can fix it quickly.
+
+  - type: input
+    id: page_url
+    attributes:
+      label: Page URL
+      description: Link to the handbook page with the problem
+      placeholder: https://gigcymru.github.io/dhcw-software-engineering-handbook/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: What kind of issue is it?
+      options:
+        - Typo / spelling
+        - Broken link
+        - Wrong or outdated instruction
+        - Formatting / layout problem
+        - Missing image / asset
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Quote the exact text or explain the error clearly.
+      placeholder: "The page says..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it say instead?
+      description: Suggest the corrected text or fix.
+      placeholder: "Replace with..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why does this matter?
+      description: Tell us who this affects and how serious it is.
+      placeholder: "This could confuse new contributors because..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: extra
+    attributes:
+      label: Extra checks
+      options:
+        - label: I checked whether this was already reported.
+          required: false
+        - label: I’m happy to help review the fix.
+          required: false
