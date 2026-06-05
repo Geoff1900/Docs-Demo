@@ -1,7 +1,7 @@
 name: Suggest a change (newest)
 name: 💡 Suggest a change
 description: Report something wrong, suggest improvements or ideas for new guidance.
-title: "Briefly describe what needs to change"
+title: "Brief summary of the change"
 labels:
   - documentation
 
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-       **This is an open source repo. Before you file an issue:**
+       **Before you file an issue:**
         
        - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
        - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
@@ -20,9 +20,9 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: What needs to change?
-      description: What is wrong, unclear, or missing?
-      placeholder: e.g. Fix a broken link in doc/index.md or add guidance on feature branching
+      label: Describe the change
+      description: What is wrong, unclear, or missing? Include any relevant details.
+      placeholder: e.g. Fix a broken link in doc/index.md, or add guidance on feature branching
     validations:
       required: true
 
