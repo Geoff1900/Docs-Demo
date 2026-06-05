@@ -12,15 +12,12 @@ body:
     attributes:
       value: |
       **Note** This is an open source repo
- 
+      * Before you file an issue read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md) and 
+        [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+      * Check to make sure someone hasn not already opened a similar [issue](https://github.com/github/docs/issues)
+      Thanks for helping improve the handbook. 
 
-  - type: checkboxes
-    id: conduct
-    attributes:
-      label: Code of Conduct
-      options:
-        - label: I agree to follow the [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
-          required: true
+
 
   - type: dropdown
     id: change_type
