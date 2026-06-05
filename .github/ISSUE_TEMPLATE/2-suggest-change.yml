@@ -11,8 +11,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve the handbook. Please follow the [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
-        and our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md).
+        Thanks for helping improve the handbook. Please follow our [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+        and [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md).
 
   - type: dropdown
     id: change_type
@@ -21,7 +21,7 @@ body:
       options:
         - Fix something (e.g. typos or broken links)
         - Suggest an improvement
-        - Add new content (missing guidance or topics)
+        - Add new content
     validations:
       required: true
 
