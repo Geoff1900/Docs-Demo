@@ -9,7 +9,6 @@ body:
   - type: markdown
     attributes:
       value: |
-       
        **Before you file an issue:**
         
        - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
