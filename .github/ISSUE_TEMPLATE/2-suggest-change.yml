@@ -20,9 +20,9 @@ body:
   - type: checkboxes
     id: conduct
     attributes:
-      label: I agree to follow the [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+      label: Code of Conduct
       options:
-        #- label: I agree to follow the [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+        - label: I agree to follow the [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
           required: true
 
   - type: dropdown
