@@ -17,9 +17,17 @@ body:
     attributes:
       label: What improvements would you like?
       options:
-        - Fix something (report typos, grammar errors or broken links)
+        - Fix something (e.g. typos or broken links)
         - Improve something (make the content clearer or better)
         - Add new content (missing guidance or new topics)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs to change?
+      description: Tell us what is wrong, unclear, or missing
     validations:
       required: true
 
@@ -27,29 +35,13 @@ body:
     id: location
     attributes:
       label: Where is this in the handbook?
-      description: Page, section, or link
+      description: Optional. Feel free to leave blank if you are not sure
       placeholder: e.g. doc/index.md or “Testing guidance page”
-    validations:
-      required: true
-
-  - type: textarea
-    id: problem
-    attributes:
-      label: What is the issue or gap?
-      description: Tell us what is wrong, unclear, or missing
-    validations:
-      required: true
-
-  - type: textarea
-    id: suggestion
-    attributes:
-      label: What should it be instead?
-      description: Optional but helpful if you have a suggestion
 
   - type: textarea
     id: why
     attributes:
-      label: Why is this change useful?
+      label: Optional. Why is this change useful?
       description: Who would benefit and how?
 
   - type: checkboxes
