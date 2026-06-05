@@ -13,7 +13,3 @@ issue_templates:
   - name: 💡 Suggest a change
     description: Fix something wrong, improve content, or add new guidance.
     filename: suggest-a-change.yml
-
-  - name: 💬 Start a discussion
-    description: Share early ideas or ask questions before making a change.
-    filename: start-discussion.yml
