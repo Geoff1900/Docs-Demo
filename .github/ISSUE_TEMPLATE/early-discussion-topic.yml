@@ -15,7 +15,7 @@ body:
     attributes:
       label: Topic
       description: What would you like to discuss?
-      placeholder: Example: should we add guidance on team ownership?
+      placeholder: Example should we add guidance on team ownership?
 
   - type: textarea
     id: context
