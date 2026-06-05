@@ -11,13 +11,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve the handbook. Please follow our [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
-        and [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+      **Note** This is an open source repo:  
+
+        * Before you file an issue read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md) and 
+        [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues)
+      Thanks for helping improve the handbook.
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow the [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+          required: true
 
   - type: dropdown
     id: change_type
     attributes:
-      label: Desribe the change
+      label: Describe the change
       options:
         - Fix something (e.g. typos or broken links)
         - Suggest an improvement
@@ -39,11 +51,3 @@ body:
     attributes:
       label: Why is this change useful?
       description: Optional. Who would benefit and how?
-
-  - type: checkboxes
-    id: conduct
-    attributes:
-      label: Code of Conduct
-      options:
-        - label: I agree to follow the Code of Conduct.
-          required: true
