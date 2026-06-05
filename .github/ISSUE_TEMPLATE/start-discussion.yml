@@ -1,0 +1,36 @@
+name: Start a discussion
+description: Share early ideas or ask questions about the handbook.
+title: "[Discussion]: "
+labels:
+  - discussion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please follow the Contributing Guide and Code of Conduct before submitting.
+
+  - type: input
+    id: topic
+    attributes:
+      label: What would you like to discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Background or context
+
+  - type: textarea
+    id: thoughts
+    attributes:
+      label: Early thoughts (optional)
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow the Code of Conduct.
+          required: true
