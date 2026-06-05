@@ -1,7 +1,7 @@
 name: Suggest a change (newest)
 name: 💡 Suggest a change
 description: Report something wrong, suggest improvements or ideas for new guidance.
-title: "[Change]: "
+title: "Briefly describe what needs to change"
 labels:
   - documentation
 
@@ -11,9 +11,9 @@ body:
       value: |
        **This is an open source repo. Before you file an issue:**
         
-       * Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
-       * Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
-       * Check to make sure someone hasn't already opened a similar [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
+       - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+       - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+       - Check for an existing [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
        
        Thanks for helping improve the handbook 🙌
 
@@ -21,8 +21,8 @@ body:
     id: problem
     attributes:
       label: What needs to change?
-      description: Tell us what is wrong, unclear, or missing
-      placeholder: e.g. Broken link in doc/index.md or “Add guidance on feature branching in Using Source Control”
+      description: What is wrong, unclear, or missing?
+      placeholder: e.g. Fix a broken link in doc/index.md or add guidance on feature branching
     validations:
       required: true
 
@@ -30,4 +30,4 @@ body:
     id: why
     attributes:
       label: Why is this change useful?
-      description: Optional. Who would benefit and how?
+      description: Optional - who benefits and how?
