@@ -1,0 +1,83 @@
+name: Content improvement
+description: Suggest new handbook content, clearer guidance, or a better example.
+title: "[Content]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for new guidance or stronger examples.
+        For typos, broken links, or incorrect instructions, use the documentation error form.
+
+  - type: input
+    id: page_or_area
+    attributes:
+      label: Relevant page or section
+      description: Link to the page, or describe the section that should change
+      placeholder: Architecture / Testing / Security / onboarding
+    validations:
+      required: true
+
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: What kind of improvement is this?
+      options:
+        - New topic
+        - Better explanation
+        - More example code
+        - More practical guidance
+        - Clarify a process
+        - Accessibility improvement
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_gap
+    attributes:
+      label: What is missing or unclear?
+      description: Explain the gap in the current handbook content.
+      placeholder: "This section does not explain..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed content
+      description: Write the content you would like to see, or outline the structure.
+      placeholder: "Add a short section explaining..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Useful references
+      description: Optional links, examples, standards, or internal guidance.
+      placeholder: "Related standard, article, or project example..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Expected impact
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: extra
+    attributes:
+      label: Extra checks
+      options:
+        - label: I’m happy for the wording to be edited by maintainers.
+          required: false
+        - label: I can help draft a pull request.
+          required: false
