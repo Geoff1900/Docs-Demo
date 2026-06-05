@@ -11,11 +11,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        **This is an open source repo. Before you file an issue:**
+       **This is an open source repo. Before you file an issue:**
         
-        * Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
-        * Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
+       * Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+       * Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+       * Check to make sure someone hasn't already opened a similar [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
        
        Thanks for helping improve the handbook 🙌
 
