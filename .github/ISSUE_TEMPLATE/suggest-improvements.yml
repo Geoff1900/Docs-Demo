@@ -1,0 +1,45 @@
+name: Suggest improvements
+description: Suggest a clearer, better, or more useful change.
+title: "[Suggest improvements]: "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. Please focus on one improvement at a time.
+
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      description: Which page or section should be improved?
+      placeholder: doc/index.md or a page title
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What should change?
+      description: Tell us how to improve it.
+      placeholder: Make the wording clearer, add an example, improve navigation, and so on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this help?
+      description: What problem would this solve?
+      placeholder: This would make the guidance easier to follow.
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      description: Please confirm before submitting.
+      options:
+        - label: I have read and agree to follow the Code of Conduct.
+          required: true
