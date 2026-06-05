@@ -37,14 +37,14 @@ body:
     id: location
     attributes:
       label: Where is this in the handbook?
-      description: Optional. Feel free to leave blank if you are not sure
+      description: Optional. Feel free to leave blank if unsure
       placeholder: e.g. doc/index.md or “Using Source Control”
 
   - type: textarea
     id: why
     attributes:
-      label: Optional. Why is this change useful?
-      description: Who would benefit and how?
+      label: Why is this change useful?
+      description: Optional. Who would benefit and how?
 
   - type: checkboxes
     id: conduct
