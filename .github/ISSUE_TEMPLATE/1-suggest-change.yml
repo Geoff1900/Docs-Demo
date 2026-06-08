@@ -1,37 +1,34 @@
 name: 💡 Suggest a change
 description: Report something wrong, suggest improvements or ideas for new guidance.
-title: "Brief summary of the change"
 labels:
   - documentation
-
 body:
   - type: markdown
     attributes:
       value: |
-       **Before you file an issue:**
-        
-       - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
-       - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
-       - Check for an existing [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
-       
-       Thanks for helping improve the handbook 🙌
-  - type: input 
-    id: location 
-    attributes: 
-      label: Relevant page or section (optional) 
-      placeholder: e.g. Using Source Control
+        **Before you file an issue:**
 
+        - Read the [Contributing guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+        - Follow our [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+        - Check for an existing [issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
+
+        Thanks for helping improve the handbook 🙌
+  - type: input
+    id: location
+    attributes:
+      label: Relevant page or section (optional)
+      placeholder: e.g. Using Source Control
   - type: textarea
     id: problem
     attributes:
       label: Describe the change
       description: What is wrong, unclear, or missing? Include any relevant details.
-      placeholder: e.g. Fix a broken link in doc/index.md, or add guidance on feature branching
+      placeholder: e.g. Fix a broken link in docs/index.md, or add guidance on feature branching
     validations:
       required: true
-
   - type: textarea
     id: why
     attributes:
       label: Why is this change useful? (optional)
-      description: Optional - who benefits and how?
+      description: Optional — who benefits and how?
+      placeholder: e.g. This page is often the first thing new joiners read and the current wording is ambiguous.
