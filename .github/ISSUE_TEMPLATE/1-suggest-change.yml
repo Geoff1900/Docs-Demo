@@ -23,7 +23,7 @@ body:
     attributes:
       label: Describe the change
       description: What is wrong, unclear, or missing? Include any relevant details.
-      placeholder: e.g. Fix a broken link in docs/index.md, or add guidance on feature branching
+      placeholder: e.g. There is no guidance on forking a repository or creating a branch before making changes.
     validations:
       required: true
   - type: textarea
@@ -31,4 +31,4 @@ body:
     attributes:
       label: Why is this change useful? (optional)
       description: Optional — who benefits and how?
-      placeholder: e.g. This page is often the first thing new joiners read and the current wording is ambiguous.
+      placeholder: e.g. This would help new contributors who are unsure how to start working on a changes.
